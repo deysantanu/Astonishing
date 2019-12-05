@@ -3,9 +3,34 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29521.150
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FB401113-AD18-4908-8972-005740B4D43E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4BE23317-FD3F-4BB6-AE88-5C8811517E49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{7FD9F66D-0381-4C59-A0F1-E0A2EA69C873}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Astonishing.Core", "Core\Astonishing.Core\Astonishing.Core.csproj", "{AAE05AB6-C87E-4B40-8B99-47A1664FE431}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Module", "Module", "{8539316A-8A8E-4258-9F68-A0C3CA0DB86C}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAE05AB6-C87E-4B40-8B99-47A1664FE431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAE05AB6-C87E-4B40-8B99-47A1664FE431}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAE05AB6-C87E-4B40-8B99-47A1664FE431}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAE05AB6-C87E-4B40-8B99-47A1664FE431}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7FD9F66D-0381-4C59-A0F1-E0A2EA69C873} = {FB401113-AD18-4908-8972-005740B4D43E}
+		{AAE05AB6-C87E-4B40-8B99-47A1664FE431} = {7FD9F66D-0381-4C59-A0F1-E0A2EA69C873}
+		{8539316A-8A8E-4258-9F68-A0C3CA0DB86C} = {FB401113-AD18-4908-8972-005740B4D43E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BFDADDC5-86DF-485B-BAC9-172BEFD53D7A}
